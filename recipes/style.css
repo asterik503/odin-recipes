@@ -1,0 +1,34 @@
+.salad {
+  background: linear-gradient(to top right, #ffff00 0%, #ff6600 100%);
+}
+
+.burger {
+  background: linear-gradient(to top right, #ffff00 0%, #ff0066 100%);
+}
+
+.crispy {
+  background: linear-gradient(to top right, #ff5050 0%, #99ff33 100%);
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
