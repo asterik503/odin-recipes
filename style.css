@@ -1,5 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
-  background-color: rgb(199, 21, 133);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -10,6 +19,25 @@ h1 {
 }
 
 li {
-  display: flex;
-  justify-items: centre;
+  display: inline-block;
+  height: 129.5px;
+  width: 270px;
+  padding: 50px 1px 50px 1px;
+  margin: 100px;
+  background: palevioletred;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid palevioletred;
+}
+
+#second {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: peachpuff;
+  display: inline-block;
 }
