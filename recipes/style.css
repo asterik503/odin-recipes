@@ -1,3 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:not(body) :not(ul) :not(li) :not(li) {
+  margin-left: 150px;
+  margin-right: 400px;
+}
+
+:not(dd) :not(dt) :not(body) :not(dl) {
+  background: white;
+}
+
 .salad {
   background: linear-gradient(to top right, #ffff00 0%, #ff6600 100%);
 }
@@ -10,25 +27,42 @@
   background: linear-gradient(to top right, #ff5050 0%, #99ff33 100%);
 }
 
+
 h1 {
   font-family: "Courier New", monospace;
-  font-style: italic;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 300px;
+  margin-top: 330px;
+  margin-left: 150px;
+  background: white;
+  margin-right: 400px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 50px;
 }
 
-img {
-  width: 400px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 dt {
   font-style: italic;
+  padding-top: 40px;
 }
 
 dd {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+img {
+  box-sizing: content-box;
+  border-top: 90px;
+  border-left: 0px;
+  height: auto;
+  width: 500px;
+  border-radius: 25px;
+}
+
+p {
+  padding-bottom: 20px;
 }
